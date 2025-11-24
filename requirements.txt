@@ -1,0 +1,19 @@
+# 核心数据处理
+pandas>=1.5.0      # 必须高于1.3以支持 groupby().rolling() 语法
+numpy>=1.21.0
+
+# 机器学习模型
+scikit-learn>=1.2.0  # 用于 Metrics, Pipeline, OneHotEncoder, SVD
+xgboost>=1.7.0       # 用于 Baseline 和 Exp 1
+catboost>=1.2.0      # 用于 Exp 2 及最终冠军模型 (核心库)
+
+# 可视化图表
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# 可解释性分析
+shap>=0.41.0         # 用于 SHAP Summary Plot
+
+# 交互式环境 (如果本地运行)
+jupyterlab>=3.5.0
+ipykernel>=6.19.0
